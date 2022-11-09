@@ -1,5 +1,5 @@
 from app import app
-from flask import render_template
+from flask import render_template, request, redirect, url_for, flash
 from app.forms import LoginForm
 
 
@@ -23,6 +23,15 @@ def index():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
-    return render_template('login.html', title='Sign In', form=form)
+    # if request.method == 'POST':
+    #     if request.form.get('username') == 'Felix' and request.form.get('password') == '111':
+    #         return redirect(url_for('index'))
+    #     else:
+    #         flash('Wrong username or password, please login again!')
 
-    
+    # use flaskWTF validation
+    if form.validate_on_submit():
+        flash('Login requested for user {}, remember_me={}'.format(form.username.data, form.remember_me.data))
+        return redirect(url_for('index'))
+        
+    return render_template('login.html', title='Sign In', form=form)
