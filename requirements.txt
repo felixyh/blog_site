@@ -4,4 +4,5 @@ flask-wtf
 wtforms
 flask-bootstrap
 flask-sqlalchemy
-xlrd==1.2.0c
+flask-migrate
+xlrd==1.2.0
