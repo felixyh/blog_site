@@ -23,7 +23,9 @@ class User(UserMixin, db.Model):
 
     def avatar(self, size):
         digest = md5(self.email.lower().encode('utf-8')).hexdigest()
-        return 'https://www.gravatar.com/avatar/{}?d=monsterid&s={}'.format(digest, size)
+        # return 'https://avatars.dicebear.com/api/open-peeps/{}.svg?&size={}'.format()
+        
+        return 'https://avatars.dicebear.com/api/croodles-neutral/{}.svg?&size={}'.format(digest, size)
 
 
     def __repr__(self):
