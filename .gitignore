@@ -39,3 +39,6 @@ venv
 app.db
 blogsite.log*
 migrations
+
+# debug logs
+logs
