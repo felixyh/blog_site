@@ -80,3 +80,5 @@ sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed
 2022-11-17 13:21:38,737 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:51]
 2022-11-17 13:26:09,251 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:51]
 2022-11-17 13:29:43,782 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:51]
+2022-11-17 14:12:08,521 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:51]
+2022-11-17 14:43:32,907 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:51]
