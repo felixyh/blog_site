@@ -1,34 +1,4 @@
-2022-11-17 15:32:14,669 ERROR: Exception on /index [GET] [in /root/flask-sample-projects/blog_site/venv/lib64/python3.9/site-packages/flask/app.py:1741]
-Traceback (most recent call last):
-  File "/root/flask-sample-projects/blog_site/venv/lib64/python3.9/site-packages/flask/app.py", line 2525, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/root/flask-sample-projects/blog_site/venv/lib64/python3.9/site-packages/flask/app.py", line 1822, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/root/flask-sample-projects/blog_site/venv/lib64/python3.9/site-packages/flask/app.py", line 1820, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/root/flask-sample-projects/blog_site/venv/lib64/python3.9/site-packages/flask/app.py", line 1796, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "/root/flask-sample-projects/blog_site/venv/lib64/python3.9/site-packages/flask_login/utils.py", line 290, in decorated_view
-    return current_app.ensure_sync(func)(*args, **kwargs)
-  File "/root/flask-sample-projects/blog_site/app/routes.py", line 41, in index
-    return render_template("index.html", title='Home Page', form=form, posts=posts)
-  File "/root/flask-sample-projects/blog_site/venv/lib64/python3.9/site-packages/flask/templating.py", line 147, in render_template
-    return _render(app, template, context)
-  File "/root/flask-sample-projects/blog_site/venv/lib64/python3.9/site-packages/flask/templating.py", line 130, in _render
-    rv = template.render(context)
-  File "/root/flask-sample-projects/blog_site/venv/lib64/python3.9/site-packages/jinja2/environment.py", line 1301, in render
-    self.environment.handle_exception()
-  File "/root/flask-sample-projects/blog_site/venv/lib64/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File "/root/flask-sample-projects/blog_site/app/templates/index.html", line 1, in top-level template code
-    {% extends "base.html" %}
-  File "/root/flask-sample-projects/blog_site/app/templates/base.html", line 39, in top-level template code
-    {% block content %}{% endblock %}
-  File "/root/flask-sample-projects/blog_site/app/templates/index.html", line 7, in block 'content'
-    {{ form.hidden_tag() }}
-  File "/root/flask-sample-projects/blog_site/venv/lib64/python3.9/site-packages/jinja2/utils.py", line 83, in from_obj
-    if hasattr(obj, "jinja_pass_arg"):
-jinja2.exceptions.UndefinedError: 'app.forms.PostForm object' has no attribute 'hiddern_tag'
-2022-11-17 15:32:58,328 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:51]
-2022-11-17 15:34:54,979 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:51]
-2022-11-17 15:37:51,599 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:51]
+2022-11-17 22:44:19,637 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:57]
+2022-11-17 22:44:21,414 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:57]
+2022-11-17 22:44:24,179 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:57]
+2022-11-17 22:44:34,012 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:57]

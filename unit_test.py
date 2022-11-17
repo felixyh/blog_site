@@ -25,7 +25,7 @@ class UserModelCase(unittest.TestCase):
 
     def test_avatar(self):
         u = User(username='john', email='john@example.com')
-        self.assertEqual(u.avatar(128), ('https://avatars.dicebear.com/api/croodles-neutral/'
+        self.assertEqual(u.avatar(128), ('https://avatars.dicebear.com/api/avataaars/'
                                          'd4c74594d841139328695756648b6bd6'
                                          '.svg?size=128'))
 

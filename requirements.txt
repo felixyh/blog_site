@@ -10,3 +10,5 @@ xlrd==1.2.0
 python-dotenv # to read the .env variables
 flask-login
 email_validator # The Email() validator from WTForms requires an external dependency to be installed
+flask-mail
+pyjwt
