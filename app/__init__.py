@@ -12,6 +12,8 @@ import os
 
 from flask_mail import Mail
 
+from flask_moment import Moment
+
 app = Flask(__name__)
 app.config.from_object(Config)
 db = SQLAlchemy(app)
@@ -20,6 +22,7 @@ login = LoginManager(app)
 login.login_view = 'login'
 bootstrap = Bootstrap(app)
 mail = Mail(app)
+moment = Moment(app)
 
 if not app.debug:
     # enable "email handler" to send Errors by mail

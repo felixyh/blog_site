@@ -2,3 +2,5 @@
 2022-11-17 22:44:21,414 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:57]
 2022-11-17 22:44:24,179 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:57]
 2022-11-17 22:44:34,012 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:57]
+2022-11-19 17:09:28,501 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:60]
+2022-11-19 17:10:16,135 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:60]
