@@ -4,3 +4,7 @@
 2022-11-17 22:44:34,012 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:57]
 2022-11-19 17:09:28,501 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:60]
 2022-11-19 17:10:16,135 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:60]
+2022-11-20 17:17:18,094 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:66]
+2022-11-20 17:26:29,735 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:66]
+2022-11-20 17:26:43,831 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:66]
+2022-11-20 19:11:42,965 INFO: blogsite startup [in /root/flask-sample-projects/blog_site/app/__init__.py:72]

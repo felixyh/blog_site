@@ -14,3 +14,4 @@ flask-mail
 pyjwt
 flask-moment # date and time
 flask-babel # translation-I18n and L10n
+langdetect # language identification
