@@ -12,4 +12,5 @@ flask-login
 email_validator # The Email() validator from WTForms requires an external dependency to be installed
 flask-mail
 pyjwt
-flask-moment
+flask-moment # date and time
+flask-babel # translation-I18n and L10n

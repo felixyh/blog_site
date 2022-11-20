@@ -14,7 +14,11 @@ from flask_mail import Mail
 
 from flask_moment import Moment
 
+from flask_babel import Babel
+
+
 app = Flask(__name__)
+
 app.config.from_object(Config)
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
@@ -23,6 +27,7 @@ login.login_view = 'login'
 bootstrap = Bootstrap(app)
 mail = Mail(app)
 moment = Moment(app)
+babel = Babel(app)
 
 if not app.debug:
     # enable "email handler" to send Errors by mail
